@@ -1,12 +1,15 @@
+
 {
-  "name": "db",
+  "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": 'ssh-rsa' ,
+  "dependencies": {
+    "express": "^4.18.2"
+  },
   "author": "",
-  "license": "ISC", 
+  "license": "ISC",
   "description": ""
-
+}
